@@ -1,54 +1,44 @@
 import React from "react";
-
+import Link from "next/link";
 const Section1 = () => {
   return (
     <div>
-      <section className='header relative  items-center flex h-screen max-h-860-px'>
-        <div className='container mx-auto items-center flex flex-wrap'>
-          <div className='w-full md:w-8/12 lg:w-6/12 xl:w-6/12 px-4'>
-            <div className='pt-32 sm:pt-0'>
-              <h2 className='font-semibold text-4xl '>
-                Notus NextJS - A beautiful extension for Tailwind CSS.
-              </h2>
-              <p className='mt-4 text-lg leading-relaxed '>
-                Notus NextJS is Free and Open Source. It does not change any of
-                the CSS from{" "}
-                <a
-                  href='https://tailwindcss.com/?ref=creativetim'
-                  className=''
-                  target='_blank'
-                  rel='noopener noreferrer'
-                >
-                  Tailwind CSS
-                </a>
-                . It features multiple HTML elements and it comes with dynamic
-                components for ReactJS, Vue and Angular.
-              </p>
-              <div className='mt-12'>
-                <a
-                  href='https://www.creative-tim.com/learning-lab/tailwind/nextjs/overview/notus?ref=nnjs-index'
-                  target='_blank'
-                  className='get-started  font-bold px-6 py-4 rounded outline-none focus:outline-none mr-1 mb-1 bg-blueGray-400 active:bg-blueGray-500 uppercase text-sm shadow hover:shadow-lg ease-linear transition-all duration-150'
-                >
-                  Get started
-                </a>
-                <a
-                  href='https://github.com/creativetimofficial/notus-nextjs?ref=nnjs-index'
-                  className='github-star ml-1  font-bold px-6 py-4 rounded outline-none focus:outline-none mr-1 mb-1 bg-blueGray-700 active:bg-blueGray-600 uppercase text-sm shadow hover:shadow-lg'
-                  target='_blank'
-                >
-                  Github Star
-                </a>
+      <div className='flex justify-center items-center  bg-hero-pattern  bg-center  bg-cover bg-fixed bg-no-repeat	h-screen '>
+        <div className='  w-[95%] m-auto'>
+          <div className=' header relative  items-center flex h-screen '>
+            <div className=' w-[70%] m-auto items-center flex flex-wrap'>
+              <div className=' w-full px-4'>
+                <div className=''>
+                  <h2 className='text-[white] text-center  font-semibold text-4xl '>
+                    Mothers Nest
+                  </h2>
+                  <p className='text-[white] text-center mt-4 text-lg leading-relaxed '>
+                    Notus NextJS is Free and Open Source. It does not change any
+                    of the CSS from . It features multiple HTML elements and it
+                    comes with dynamic components for ReactJS, Vue and Angular.
+                  </p>
+                  <div className=' flex justify-center m-auto mt-12'>
+                    <Link
+                      href='https://www.creative-tim.com/learning-lab/tailwind/nextjs/overview/notus?ref=nnjs-index'
+                      target='_blank'
+                      className='mr-6 text-[white] bg-[red] get-started  font-bold px-6 py-4 rounded outline-none focus:outline-none  mb-1 bg-blueGray-400 active:bg-blueGray-500 uppercase text-sm shadow hover:shadow-lg ease-linear transition-all duration-150'
+                    >
+                      Button 1
+                    </Link>
+                    <Link
+                      href='https://github.com/creativetimofficial/notus-nextjs?ref=nnjs-index'
+                      className='text-[white] bg-[red] github-star ml-1  font-bold px-6 py-4 rounded outline-none focus:outline-none mr-1 mb-1 bg-blueGray-700 active:bg-blueGray-600 uppercase text-sm shadow hover:shadow-lg'
+                      target='_blank'
+                    >
+                      Button 2
+                    </Link>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
         </div>
-        <img
-          className='absolute top-0 b-auto right-0 sm:w-6/12 -mt-48 sm:mt-0 w-10/12 max-h-860-px'
-          src='/img/pattern_nextjs.png'
-          alt='...'
-        />
-      </section>
+      </div>
     </div>
   );
 };
