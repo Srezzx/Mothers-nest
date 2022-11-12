@@ -1,5 +1,8 @@
 import React from "react";
-
+import { AiFillHome } from "react-icons/ai";
+import { BsFillBookFill } from "react-icons/bs";
+import { FaPrayingHands } from "react-icons/fa";
+import { MdFoodBank } from "react-icons/md";
 const Section2 = () => {
   return (
     <div
@@ -31,17 +34,16 @@ const Section2 = () => {
             <div className='relative flex flex-col min-w-0 break-words bg-white w-full mb-6 shadow-lg rounded-lg bg-blueGray-700'>
               <img
                 alt='...'
-                src='https://images.unsplash.com/photo-1498050108023-c5249f4df085?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=700&q=80'
+                src='/images/template1.jpg'
                 className='w-full align-middle rounded-t-lg'
               />
               <blockquote className='relative p-8 mb-4'>
-                <h4 className='text-xl font-bold '>
-                  Great for your awesome project
-                </h4>
-                <p className='text-md font-light mt-2 '>
-                  Putting together a page has never been easier than matching
-                  together pre-made components. From landing pages presentation
-                  to login areas, you can easily customise and built your pages.
+                <h4 className='text-center text-xl font-bold '>Mothers Nest</h4>
+                <p className='text-justify text-md font-light mt-2 '>
+                  Mothers Nest, is a non profit organization and a child care,
+                  elderly support activity unit. With free access to food,
+                  living and education, it provides the perfect warmth of a home
+                  to the needy.{" "}
                 </p>
               </blockquote>
             </div>
@@ -53,28 +55,26 @@ const Section2 = () => {
                 <div className='relative flex flex-col mt-4'>
                   <div className='px-4 py-5 flex-auto'>
                     <div className=' p-3 text-center inline-flex items-center justify-center w-12 h-12 mb-5 shadow-lg rounded-full bg-white'>
-                      <i className='fas fa-sitemap'></i>
+                      <BsFillBookFill size={40} color={"blue"} />
                     </div>
                     <h6 className='text-xl mb-1 font-semibold'>
-                      CSS Components
+                      Child Education
                     </h6>
                     <p className='mb-4 '>
-                      Notus NextJS comes with a huge number of Fully Coded CSS
-                      components.
+                      Provides basic education to the needy little ones and
+                      makes them ready for high schools.
                     </p>
                   </div>
                 </div>
                 <div className='relative flex flex-col min-w-0'>
                   <div className='px-4 py-5 flex-auto'>
-                    <div className='text-[white] p-3 text-center inline-flex items-center justify-center w-12 h-12 mb-5 shadow-lg rounded-full bg-[black]'>
-                      <i className='fas fa-drafting-compass'></i>
+                    <div className='text-[white] p-3 text-center inline-flex items-center justify-center w-12 h-12 mb-5 shadow-lg rounded-full bg-[white]'>
+                      <MdFoodBank size={40} color={"blue"} />
                     </div>
-                    <h6 className='text-xl mb-1 font-semibold'>
-                      JavaScript Components
-                    </h6>
+                    <h6 className='text-xl mb-1 font-semibold'>Food</h6>
                     <p className='mb-4 '>
-                      We also feature many dynamic components for React, NextJS,
-                      Vue and Angular.
+                      Provides the basic facilities like food and water to the
+                      enrolled children.
                     </p>
                   </div>
                 </div>
@@ -83,26 +83,26 @@ const Section2 = () => {
                 <div className='relative flex flex-col min-w-0 mt-4'>
                   <div className='px-4 py-5 flex-auto'>
                     <div className=' p-3 text-center inline-flex items-center justify-center w-12 h-12 mb-5 shadow-lg rounded-full bg-white'>
-                      <i className='fas fa-newspaper'></i>
+                      <FaPrayingHands color={"blue"} size={40} />
                     </div>
-                    <h6 className='text-xl mb-1 font-semibold'>Pages</h6>
+                    <h6 className='text-xl mb-1 font-semibold'>
+                      Elderly Support
+                    </h6>
                     <p className='mb-4 '>
-                      This extension also comes with 3 sample pages. They are
-                      fully coded so you can start working instantly.
+                      We try to provide nourishment and care to the elderly
+                      people who are left alone in the society.
                     </p>
                   </div>
                 </div>
                 <div className='relative flex flex-col min-w-0'>
                   <div className='px-4 py-5 flex-auto'>
                     <div className=' p-3 text-center inline-flex items-center justify-center w-12 h-12 mb-5 shadow-lg rounded-full bg-white'>
-                      <i className='fas fa-file-alt'></i>
+                      <AiFillHome color={"blue"} size={40} />
                     </div>
-                    <h6 className='text-xl mb-1 font-semibold'>
-                      Documentation
-                    </h6>
+                    <h6 className='text-xl mb-1 font-semibold'>Shelter</h6>
                     <p className='mb-4 '>
-                      Built by developers for developers. You will love how easy
-                      is to to work with Notus NextJS.
+                      We are currently building the facility to provide shelter
+                      24x7 to the elderly people.
                     </p>
                   </div>
                 </div>

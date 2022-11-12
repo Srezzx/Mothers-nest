@@ -21,10 +21,10 @@ export default function Home() {
         <Section1 />
         <section className='mt-48 md:mt-40 pb-40 relative bg-blueGray-100'>
           <Section2 />
-          <div className='container mx-auto overflow-hidden pb-20'>
+          {/* <div className='container mx-auto overflow-hidden pb-20'>
             <Section3 />
             <Section4 />
-          </div>
+          </div> */}
           <Section5 />
           <div className='justify-center text-center flex flex-wrap mt-24'>
             <div className='w-full md:w-6/12 px-12 md:px-4'>
