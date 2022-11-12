@@ -14,8 +14,8 @@ const Section5 = () => {
               <p className='mt-4 text-lg leading-relaxed '>
                 This extension comes a lot of fully coded examples that help you
                 get started faster. You can adjust the colors and also the
-                programming language. You can change the text and images and
-                you're good to go.
+                programming language. You can change the text and images and you
+                are good to go.
               </p>
               <ul className='list-none mt-6'>
                 <li className='py-2'>

@@ -19,14 +19,16 @@ const Section1 = () => {
                   </p>
                   <div className=' flex justify-center m-auto mt-12'>
                     <Link
-                      href='https://www.creative-tim.com/learning-lab/tailwind/nextjs/overview/notus?ref=nnjs-index'
+                      href=''
                       target='_blank'
+                      rel='noreferrer'
                       className='mr-6 text-[white] bg-[red] get-started  font-bold px-6 py-4 rounded outline-none focus:outline-none  mb-1 bg-blueGray-400 active:bg-blueGray-500 uppercase text-sm shadow hover:shadow-lg ease-linear transition-all duration-150'
                     >
                       Button 1
                     </Link>
                     <Link
-                      href='https://github.com/creativetimofficial/notus-nextjs?ref=nnjs-index'
+                      href=''
+                      rel='noreferrer'
                       className='text-[white] bg-[red] github-star ml-1  font-bold px-6 py-4 rounded outline-none focus:outline-none mr-1 mb-1 bg-blueGray-700 active:bg-blueGray-600 uppercase text-sm shadow hover:shadow-lg'
                       target='_blank'
                     >
