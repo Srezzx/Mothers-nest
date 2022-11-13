@@ -9,6 +9,7 @@ import Section4 from "../components/Section4/Section4";
 import Section5 from "../components/Section5/Section5";
 import Section6 from "../components/Section6/Section6";
 import Section7 from "../components/Section7/Section7";
+import Quote from "../components/Quote/Quote";
 export default function Home() {
   return (
     <div>
@@ -25,19 +26,8 @@ export default function Home() {
             <Section3 />
             <Section4 />
           </div> */}
+          <Quote />
           <Section5 />
-          <div className='justify-center text-center flex flex-wrap mt-24'>
-            <div className='w-full md:w-6/12 px-12 md:px-4'>
-              <h2 className='font-semibold text-4xl'>
-                Beautiful Example Pages
-              </h2>
-              <p className='text-lg leading-relaxed mt-4 mb-4 '>
-                Notus NextJS is a completly new product built using our past
-                experience in web templates. Take the examples we made for you
-                and start playing with them.
-              </p>
-            </div>
-          </div>
         </section>
         <section className='block relative z-1 bg-blueGray-600'>
           <Section6 />
