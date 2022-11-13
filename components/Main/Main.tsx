@@ -9,7 +9,7 @@ const Section1 = () => {
             <div className=' w-[70%] m-auto items-center flex flex-wrap'>
               <div className=' w-full px-4'>
                 <div className=''>
-                  <h2 className='text-[white] text-center  font-semibold text-4xl '>
+                  <h2 className=' text-[white] text-center  font-semibold text-4xl '>
                     Mothers Nest
                   </h2>
                   <p className='text-[white] text-center mt-4 text-lg leading-relaxed '>
