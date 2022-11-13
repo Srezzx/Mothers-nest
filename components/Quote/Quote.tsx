@@ -27,7 +27,8 @@ const Quote = () => {
         </div>
 
         <p className='text-[black]  text-center text-2xl md:text-3xl '>
-          "It&apos;s not how much we give, but how much love we put into giving"
+          &quot; It&apos;s not how much we give, but how much love we put into
+          giving &quot;
         </p>
       </blockquote>
     </div>
