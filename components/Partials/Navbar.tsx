@@ -79,7 +79,7 @@ const Navbar = () => {
                 className={`text-[white] ml-auto md:hidden mt-5`}
                 onClick={handleNav}
               >
-                <AiOutlineMenu size={25} />
+                <AiOutlineMenu color={"#B56357"} size={25} />
               </div>
             </div>
           </div>

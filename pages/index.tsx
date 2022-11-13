@@ -22,10 +22,6 @@ export default function Home() {
         <Section1 />
         <section className='mt-48 md:mt-40 pb-40 relative bg-blueGray-100'>
           <Section2 />
-          {/* <div className='container mx-auto overflow-hidden pb-20'>
-            <Section3 />
-            <Section4 />
-          </div> */}
           <Quote />
           <Section5 />
         </section>

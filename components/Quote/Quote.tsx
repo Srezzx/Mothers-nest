@@ -2,7 +2,7 @@ import React from "react";
 
 const Quote = () => {
   return (
-    <div className=' w-[90%] m-auto flex mt-20 '>
+    <div className=' w-[90%] m-auto flex mt-32 '>
       <blockquote className='w-full text-xl italic font-semibold text-gray-900 dark:text-white'>
         <div className=' pb-4 flex flex-row align-center justify-center md:justify-start '>
           {" "}
@@ -27,7 +27,7 @@ const Quote = () => {
         </div>
 
         <p className='text-[black]  text-center text-2xl md:text-3xl '>
-          "It's not how much we give, but how much love we put into giving"
+          "It&apos;s not how much we give, but how much love we put into giving"
         </p>
       </blockquote>
     </div>
