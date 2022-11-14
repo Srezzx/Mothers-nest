@@ -3,25 +3,7 @@ import { AiFillAccountBook } from "react-icons/ai";
 const Section5 = () => {
   return (
     <div>
-      <div className='bg-[lightblue]  relative mx-auto px-4 pb-32 mt-24'>
-        <div
-          className=' -mt-20 top-0 bottom-auto left-0 right-0 w-full absolute h-20 '
-          style={{ transform: "translateZ(0)" }}
-        >
-          <svg
-            className='absolute bottom-0 overflow-hidden'
-            preserveAspectRatio='none'
-            version='1.1'
-            viewBox='0 0 2160 100'
-            x='0'
-            y='0'
-          >
-            <polygon
-              className='text-[lightblue] fill-current'
-              points='2160 0 2160 100 0 100'
-            ></polygon>
-          </svg>
-        </div>
+      <div className='bg-[lightblue]  relative mx-auto px-4 pb-32 '>
         <div className=' items-center flex flex-wrap'>
           <div className=' w-full md:w-5/12 ml-auto px-4 md:px-4'>
             <div className='md:pr-12'>
