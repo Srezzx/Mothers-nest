@@ -28,9 +28,9 @@ const Section2 = () => {
           ></polygon>
         </svg>
       </div>
-      <div className='container mx-auto'>
+      <div className='w-[96%] md:w-[90%] m-auto '>
         <div className='flex flex-wrap items-center'>
-          <div className='w-10/12 md:w-6/12 lg:w-4/12 px-12 md:px-4 mr-auto ml-auto -mt-32'>
+          <div className='w-12/12 md:w-6/12 lg:w-4/12 px-6 md:px-4 mr-auto ml-auto -mt-32'>
             <div className='relative flex flex-col min-w-0 break-words bg-white w-full mb-6 shadow-lg rounded-lg bg-blueGray-700'>
               <img
                 alt='...'
@@ -49,8 +49,8 @@ const Section2 = () => {
             </div>
           </div>
 
-          <div className='w-full md:w-6/12 px-4'>
-            <div className='flex flex-wrap'>
+          <div className=' w-full md:w-6/12'>
+            <div className=' flex flex-wrap'>
               <div className='w-full md:w-6/12 px-4'>
                 <div className='relative flex flex-col mt-4'>
                   <div className='px-4 py-5 flex-auto'>
@@ -60,7 +60,7 @@ const Section2 = () => {
                     <h6 className='text-xl mb-1 font-semibold'>
                       Child Education
                     </h6>
-                    <p className='mb-4 '>
+                    <p className='px-2 md:px-0 mb-4 '>
                       Provides basic education to the needy little ones and
                       makes them ready for high schools.
                     </p>
@@ -72,7 +72,7 @@ const Section2 = () => {
                       <MdFoodBank size={40} color={"blue"} />
                     </div>
                     <h6 className='text-xl mb-1 font-semibold'>Food</h6>
-                    <p className='mb-4 '>
+                    <p className='px-2 md:px-0  mb-4 '>
                       Provides the basic facilities like food and water to the
                       enrolled children.
                     </p>
@@ -88,7 +88,7 @@ const Section2 = () => {
                     <h6 className='text-xl mb-1 font-semibold'>
                       Elderly Support
                     </h6>
-                    <p className='mb-4 '>
+                    <p className='px-2 md:px-0  mb-4 '>
                       We try to provide nourishment and care to the elderly
                       people who are left alone in the society.
                     </p>
@@ -100,7 +100,7 @@ const Section2 = () => {
                       <AiFillHome color={"blue"} size={40} />
                     </div>
                     <h6 className='text-xl mb-1 font-semibold'>Shelter</h6>
-                    <p className='mb-4 '>
+                    <p className='px-2 md:px-0  mb-4 '>
                       We are currently building the facility to provide shelter
                       24x7 to the elderly people.
                     </p>

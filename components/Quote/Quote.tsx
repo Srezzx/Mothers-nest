@@ -2,13 +2,13 @@ import React from "react";
 
 const Quote = () => {
   return (
-    <div className='bg-motherteresa bg-no-repeat bg-cover bg-fixed relative'>
+    <div className='bg-motherteresa z-[-50] bg-no-repeat bg-cover bg-fixed bg-center relative'>
       <div
-        className='bg-[lightblue] z-[-50] -mb-20 top-0 bottom-auto left-0 right-0 w-full absolute h-20 '
+        className='bg-[transparent] -mb-20 top-0 bottom-auto left-0 right-0 w-full absolute h-20 '
         style={{ transform: "translateZ(0)" }}
       >
         <svg
-          className='absolute bottom-0 overflow-hidden'
+          className='absolute top-0  overflow-hidden'
           xmlns='http://www.w3.org/2000/svg'
           preserveAspectRatio='none'
           version='1.1'
@@ -17,8 +17,8 @@ const Quote = () => {
           y='0'
         >
           <polygon
-            className='text-[white] fill-current'
-            points='2560 0 2560 100 0 100'
+            className='text-[lightblue] fill-current'
+            points='2560 0 -2560 -100 0 100'
           ></polygon>
         </svg>
       </div>
