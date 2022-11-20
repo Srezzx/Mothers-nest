@@ -3,7 +3,7 @@ import { AiFillAccountBook } from "react-icons/ai";
 const Section5 = () => {
   return (
     <div>
-      <div className='bg-[lightblue]  relative mx-auto px-4 pb-32 '>
+      <div className='bg-[#c2edda]  relative mx-auto px-4 pb-32 '>
         <div className=' items-center flex flex-wrap'>
           <div className=' w-full md:w-5/12 ml-auto px-4 md:px-4'>
             <div className='md:pr-12'>

@@ -17,7 +17,7 @@ const Quote = () => {
           y='0'
         >
           <polygon
-            className='text-[lightblue] fill-current'
+            className='text-[#c2edda] fill-current'
             points='2560 0 -2560 -100 0 100'
           ></polygon>
         </svg>
@@ -65,7 +65,7 @@ const Quote = () => {
           y='0'
         >
           <polygon
-            className='text-[lightblue] fill-current'
+            className='text-[#c2edda] fill-current'
             points='2160 0 2160 100 0 100'
           ></polygon>
         </svg>

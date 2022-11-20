@@ -10,6 +10,7 @@ import Section5 from "../components/Story/Story";
 import Section6 from "../components/Section6/Section6";
 import Section7 from "../components/Section7/Section7";
 import Quote from "../components/Quote/Quote";
+import Aim from "../components/Aim/Aim";
 export default function Home() {
   return (
     <div>
@@ -23,6 +24,7 @@ export default function Home() {
         <section className='mt-48 md:mt-40 pb-40 relative bg-blueGray-100'>
           <Section2 />
           <Quote />
+          <Aim />
           <Section5 />
         </section>
         <section className='block relative z-1 bg-blueGray-600'>
