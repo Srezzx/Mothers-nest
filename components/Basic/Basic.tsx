@@ -1,14 +1,14 @@
 import React from "react";
-import { AiFillHome } from "react-icons/ai";
-import { BsFillBookFill } from "react-icons/bs";
-import { FaPrayingHands } from "react-icons/fa";
-import { MdFoodBank } from "react-icons/md";
+import {AiFillHome} from "react-icons/ai";
+import {BsFillBookFill} from "react-icons/bs";
+import {FaPrayingHands} from "react-icons/fa";
+import {MdFoodBank} from "react-icons/md";
 const Section2 = () => {
   return (
-    <div className='relative pt-0 mt-0' style={{ backgroundColor: "#c2edda" }}>
+    <div className='relative pt-0 mt-0' style={{backgroundColor: "#FAF9F6"}}>
       <div
         className='-mt-20 top-0 bottom-auto left-0 right-0 w-full absolute h-20 '
-        style={{ transform: "translateZ(0)" }}
+        style={{transform: "translateZ(0)"}}
       >
         <svg
           className='absolute bottom-0 overflow-hidden'
@@ -20,7 +20,7 @@ const Section2 = () => {
           y='0'
         >
           <polygon
-            className='text-[#c2edda] fill-current'
+            className='text-[#FAF9F6] fill-current'
             points='2560 0 2560 100 0 100'
           ></polygon>
         </svg>

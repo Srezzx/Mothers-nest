@@ -5,7 +5,7 @@ const Quote = () => {
     <div className='bg-motherteresa z-[-50] bg-no-repeat bg-cover bg-fixed bg-center relative'>
       <div
         className='bg-[transparent] -mb-20 top-0 bottom-auto left-0 right-0 w-full absolute h-20 '
-        style={{ transform: "translateZ(0)" }}
+        style={{transform: "translateZ(0)"}}
       >
         <svg
           className='absolute top-0  overflow-hidden'
@@ -17,7 +17,7 @@ const Quote = () => {
           y='0'
         >
           <polygon
-            className='text-[#c2edda] fill-current'
+            className='text-[#FAF9F6] fill-current'
             points='2560 0 -2560 -100 0 100'
           ></polygon>
         </svg>
@@ -54,7 +54,7 @@ const Quote = () => {
       </div>
       <div
         className=' -mt-20 top-auto bottom-auto left-0 right-0 w-full absolute h-20 '
-        style={{ transform: "translateZ(0)" }}
+        style={{transform: "translateZ(0)"}}
       >
         <svg
           className='absolute bottom-0 overflow-hidden'
@@ -65,7 +65,7 @@ const Quote = () => {
           y='0'
         >
           <polygon
-            className='text-[#c2edda] fill-current'
+            className='text-[#FAF9F6] fill-current'
             points='2160 0 2160 100 0 100'
           ></polygon>
         </svg>

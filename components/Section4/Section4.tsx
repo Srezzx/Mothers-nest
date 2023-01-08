@@ -18,7 +18,7 @@ const Section4 = () => {
                 </div>
               </a>
               <a href='' rel='noreferrer' target='_blank'>
-                <div className='bg-#c2edda-500 shadow-lg rounded-lg text-center p-8 mt-8'>
+                <div className='bg-#FAF9F6-500 shadow-lg rounded-lg text-center p-8 mt-8'>
                   <img
                     alt='...'
                     className='shadow-md rounded-full max-w-full w-16 mx-auto p-2 bg-white'

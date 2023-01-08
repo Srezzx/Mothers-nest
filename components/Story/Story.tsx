@@ -1,9 +1,9 @@
 import React from "react";
-import { AiFillAccountBook } from "react-icons/ai";
+import {AiFillAccountBook} from "react-icons/ai";
 const Section5 = () => {
   return (
     <div>
-      <div className='bg-[#c2edda]  relative mx-auto px-4 pb-32 '>
+      <div className='bg-[#FAF9F6]  relative mx-auto px-4 pb-32 '>
         <div className=' items-center flex flex-wrap'>
           <div className=' w-full md:w-5/12 ml-auto px-4 md:px-4'>
             <div className='md:pr-12'>
