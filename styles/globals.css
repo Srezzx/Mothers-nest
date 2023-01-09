@@ -2,22 +2,48 @@
 @tailwind components;
 @tailwind utilities;
 
-@layer base
-{
-  a
-  {
-    @apply text-[black] 
+@layer base {
+  .App-logo {
+    pointer-events: none;
+    animation: App-logo-spin infinite 10s linear;
   }
-  h1,h2,h3,h4,h5,h6
-  {
-    @apply text-[black] 
+  @keyframes App-logo-spin {
+    0% {
+      transform: scale(1) perspective(1040px) rotateY(-10deg) rotateX(2deg)
+        rotate(2deg);
+    }
+    50% {
+      transform: scale(1) perspective(1040px) rotateY(10deg) rotateX(4deg)
+        rotate(-2deg);
+    }
+    100% {
+      transform: scale(1) perspective(1040px) rotateY(-10deg) rotateX(2deg)
+        rotate(2deg);
+    }
   }
-  .text-gradient-custom-1
-  {
-    @apply  bg-clip-text bg-gradient-to-r from-[#1f4efe] to-[#FB2576]
+
+  .block-1 {
+    display: hidden;
+    background-color: red;
   }
-  .text-gradient-custom-1-rev
-  {
-    @apply  bg-clip-text bg-gradient-to-r from-[#FB2576] to-[#1f4efe]
+  .block-2 {
+    display: block;
+  }
+  a {
+    @apply text-[black];
+  }
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    @apply text-[black];
+  }
+  .text-gradient-custom-1 {
+    @apply bg-clip-text bg-gradient-to-r from-[#1f4efe] to-[#FB2576];
+  }
+  .text-gradient-custom-1-rev {
+    @apply bg-clip-text bg-gradient-to-r from-[#FB2576] to-[#1f4efe];
   }
 }

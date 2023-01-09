@@ -32,6 +32,24 @@ const Aim = () => {
           />
         </div>
       </div>
+      <div
+        className=' -mt-20 top-auto bottom-auto left-0 right-0 w-full absolute h-20 '
+        style={{transform: "translateZ(0)"}}
+      >
+        <svg
+          className='absolute bottom-0 overflow-hidden'
+          preserveAspectRatio='none'
+          version='1.1'
+          viewBox='0 0 2160 100'
+          x='0'
+          y='0'
+        >
+          <polygon
+            className='text-[white] fill-current'
+            points='2160 0 2160 100 0 100'
+          ></polygon>
+        </svg>
+      </div>
     </div>
   );
 };
