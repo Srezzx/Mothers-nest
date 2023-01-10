@@ -46,7 +46,7 @@ const Quote = () => {
             </p>
           </div>
 
-          <p className='text-[black]  text-center text-2xl md:text-3xl '>
+          <p className='text-[#010138]  text-center text-2xl md:text-3xl '>
             &quot; It&apos;s not how much we give, but how much love we put into
             giving &quot;
           </p>

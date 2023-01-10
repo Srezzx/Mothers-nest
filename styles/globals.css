@@ -46,4 +46,18 @@
   .text-gradient-custom-1-rev {
     @apply bg-clip-text bg-gradient-to-r from-[#FB2576] to-[#1f4efe];
   }
+  .zoom {
+    transform: translateZ(0);
+    z-index: -100;
+    overflow: hidden;
+  }
+  .zoom img {
+    transition: transform 0.5s linear;
+    opacity: 0.15;
+  }
+  .zoom:hover img {
+    opacity: 0.2;
+    transform: scale(1.1);
+    animation-duration: 3s;
+  }
 }

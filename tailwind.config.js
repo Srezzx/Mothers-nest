@@ -10,7 +10,7 @@ module.exports = {
         "hero-pattern":
           "linear-gradient(to right ,  rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.7)), url('/images/background.jpg')",
         motherteresa:
-          "linear-gradient(to right ,  rgba(255, 255, 255, 0.6), rgba(255, 255, 255, 0.2)), url('/images/motherteresa.jpeg')",
+          "linear-gradient(to right ,  rgba(255, 255, 255, 0.6), rgba(255, 255, 255, 0.2)), url('/images/motherteresafine.jpeg')",
       },
     },
   },

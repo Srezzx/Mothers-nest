@@ -1,9 +1,9 @@
-import React, { useState, useEffect } from "react";
+import React, {useState, useEffect} from "react";
 import Link from "next/link";
 import Image from "next/image";
-import { AiOutlineClose, AiOutlineMenu, AiOutlineMail } from "react-icons/ai";
+import {AiOutlineClose, AiOutlineMenu, AiOutlineMail} from "react-icons/ai";
 
-import { useRouter } from "next/router";
+import {useRouter} from "next/router";
 const Navbar = () => {
   const [nav, setNav] = useState(false);
   const [shadow, setShadow] = useState(false);
@@ -32,7 +32,7 @@ const Navbar = () => {
         <div
           className={
             shadow
-              ? ` transition duration-200 ease-in-out flex justify-end md:justify-around items-center w-full h-full px-2 2xl:px-16   bg-opacity-50 backdrop-blur-md bg-[#B56357]/20`
+              ? ` transition duration-200 ease-in-out flex justify-end md:justify-around items-center w-full h-full px-2 2xl:px-16   bg-opacity-50 backdrop-blur-md bg-[#ffb766]/20`
               : `flex justify-end md:justify-around items-center w-full h-full px-2 2xl:px-16  `
           }
         >
@@ -41,35 +41,35 @@ const Navbar = () => {
               <ul className='hidden md:flex'>
                 <Link href='/'>
                   <li
-                    className={`font-bold text-[#B56357] hover:text-[#A7B3A5] ease-in duration-200   cursor-pointer ml-10 text-md uppercase `}
+                    className={`font-bold text-[#ffb766] hover:text-[#A7B3A5] ease-in duration-200   cursor-pointer ml-10 text-md uppercase `}
                   >
                     Home
                   </li>
                 </Link>
                 <Link href='/#products'>
                   <li
-                    className={`font-bold text-[#B56357] hover:text-[#A7B3A5] ease-in duration-200   cursor-pointer ml-10 text-md uppercase `}
+                    className={`font-bold text-[#ffb766] hover:text-[#A7B3A5] ease-in duration-200   cursor-pointer ml-10 text-md uppercase `}
                   >
                     Products
                   </li>
                 </Link>
                 <Link href='/#process'>
                   <li
-                    className={`font-bold text-[#B56357] hover:text-[#A7B3A5] ease-in duration-200   cursor-pointer ml-10 text-md uppercase `}
+                    className={`font-bold text-[#ffb766] hover:text-[#A7B3A5] ease-in duration-200   cursor-pointer ml-10 text-md uppercase `}
                   >
                     Process
                   </li>
                 </Link>
                 <Link href='/#gallery'>
                   <li
-                    className={`font-bold text-[#B56357] hover:text-[#A7B3A5] ease-in duration-200   cursor-pointer ml-10 text-md uppercase `}
+                    className={`font-bold text-[#ffb766] hover:text-[#A7B3A5] ease-in duration-200   cursor-pointer ml-10 text-md uppercase `}
                   >
                     Gallery
                   </li>
                 </Link>
                 <Link href='/#contact'>
                   <li
-                    className={`font-bold text-[#B56357] hover:text-[#A7B3A5] ease-in duration-200   cursor-pointer ml-10 text-md uppercase `}
+                    className={`font-bold text-[#ffb766] hover:text-[#A7B3A5] ease-in duration-200   cursor-pointer ml-10 text-md uppercase `}
                   >
                     Contact
                   </li>
@@ -79,7 +79,7 @@ const Navbar = () => {
                 className={`text-[white] ml-auto md:hidden mt-5`}
                 onClick={handleNav}
               >
-                <AiOutlineMenu color={"#B56357"} size={25} />
+                <AiOutlineMenu color={"#ffb766"} size={25} />
               </div>
             </div>
           </div>
@@ -98,7 +98,7 @@ const Navbar = () => {
         <div
           className={
             nav
-              ? `fixed left-0 top-0 w-[100%] sm:w-[60%] md:w-[45%] h-full bg-[#B56357] p-10 ease-in duration-500`
+              ? `fixed left-0 top-0 w-[100%] sm:w-[60%] md:w-[45%] h-full bg-[#ffb766] p-10 ease-in duration-500`
               : "fixed left-[-100%] top-0 p-10  duration-500 h-full ease-out"
           }
         >

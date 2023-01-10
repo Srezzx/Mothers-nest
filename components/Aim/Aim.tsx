@@ -11,24 +11,28 @@ const Aim = () => {
               "At present handing the education of these children, in age group in between 3 to 15 Years old, mostly Orphans, Street, needy and very poor section off this locality."
             }
             stats={"120+"}
+            image={"student.webp"}
           />
           <Card
             description={
               "Old aged Burima has been adopted for their fooding and clothing,"
             }
             stats={"20"}
+            image={"oldwomen.jpg"}
           />
           <Card
             description={
               "Illiterate women are lessonig under  our adults education Center."
             }
             stats={"30+"}
+            image={"studying.jpg"}
           />
           <Card
             description={
               "Women are going through technical sewing machines lessonig skill at our campus."
             }
             stats={"40"}
+            image={"sewing3.png"}
           />
         </div>
       </div>

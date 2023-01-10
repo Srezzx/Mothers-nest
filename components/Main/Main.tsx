@@ -8,7 +8,7 @@ const Section1 = () => {
       <div className='flex justify-center items-center  bg-hero-pattern  bg-center  bg-cover bg-fixed bg-no-repeat	h-screen '>
         <div className='  w-[95%] m-auto'>
           <div className=' header relative  items-center flex h-screen '>
-            <div className=' w-[70%] m-auto items-center flex flex-wrap'>
+            <div className=' w-[85%] m-auto items-center flex flex-wrap'>
               <div className=' w-full px-4'>
                 <div className=''>
                   <h2
@@ -24,19 +24,19 @@ const Section1 = () => {
                     appropiate nurtition and shelter, and we expect to keep
                     growing day by day
                   </p>
-                  <div className={`  flex justify-center m-auto mt-12`}>
+                  <div className={` flex justify-center m-auto mt-12`}>
                     <Link
                       href=''
                       target='_blank'
                       rel='noreferrer'
-                      className='bg-[#ffb766]/90 px-8 py-2 rounded-sm text-[white] mx-4 hover:bg-[#ffb766] ease-in duration-200 '
+                      className='bg-[#ffb766]/90 px-4 md:px-8 py-2 rounded-sm text-[white] mx-4 hover:bg-[#ffb766] ease-in duration-200 '
                     >
                       Know More
                     </Link>
                     <Link
                       href=''
                       rel='noreferrer'
-                      className='bg-[#FAF9F6]/90 px-8 py-2 rounded-sm text-[black] mx-4  hover:bg-[#FAF9F6] ease-in duration-200  '
+                      className='bg-[#FAF9F6]/90 px-4 md:px-8 py-2 rounded-sm text-[black] mx-4  hover:bg-[#FAF9F6] ease-in duration-200  '
                       target='_blank'
                     >
                       Donate
