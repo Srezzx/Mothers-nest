@@ -8,9 +8,9 @@ module.exports = {
     extend: {
       backgroundImage: {
         "hero-pattern":
-          "linear-gradient(to right ,  rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.7)), url('/images/background.jpg')",
+          "linear-gradient(to right ,  rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.2)), url('/images/background.jpg')",
         motherteresa:
-          "linear-gradient(to right ,  rgba(255, 255, 255, 0.6), rgba(255, 255, 255, 0.2)), url('/images/motherteresafine.jpeg')",
+          "linear-gradient(to right ,  rgba(255, 255, 255, 0), rgba(255, 255, 255, 0)), url('/images/motherteresafine.jpeg')",
       },
     },
   },

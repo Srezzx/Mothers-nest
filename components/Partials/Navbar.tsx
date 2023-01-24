@@ -41,35 +41,35 @@ const Navbar = () => {
               <ul className='hidden md:flex'>
                 <Link href='/'>
                   <li
-                    className={`font-bold text-[#ffb766] hover:text-[#A7B3A5] ease-in duration-200   cursor-pointer ml-10 text-md uppercase `}
+                    className={`nav-link nav-link-ltr font-bold text-[#ffb766]  ease-in duration-200   cursor-pointer ml-10 text-md uppercase `}
                   >
                     Home
                   </li>
                 </Link>
                 <Link href='/#products'>
                   <li
-                    className={`font-bold text-[#ffb766] hover:text-[#A7B3A5] ease-in duration-200   cursor-pointer ml-10 text-md uppercase `}
+                    className={`nav-link nav-link-ltr font-bold text-[#ffb766]  ease-in duration-200   cursor-pointer ml-10 text-md uppercase `}
                   >
                     Products
                   </li>
                 </Link>
                 <Link href='/#process'>
                   <li
-                    className={`font-bold text-[#ffb766] hover:text-[#A7B3A5] ease-in duration-200   cursor-pointer ml-10 text-md uppercase `}
+                    className={`nav-link nav-link-ltr font-bold text-[#ffb766]  ease-in duration-200   cursor-pointer ml-10 text-md uppercase `}
                   >
                     Process
                   </li>
                 </Link>
                 <Link href='/#gallery'>
                   <li
-                    className={`font-bold text-[#ffb766] hover:text-[#A7B3A5] ease-in duration-200   cursor-pointer ml-10 text-md uppercase `}
+                    className={`nav-link nav-link-ltr font-bold text-[#ffb766]  ease-in duration-200   cursor-pointer ml-10 text-md uppercase `}
                   >
                     Gallery
                   </li>
                 </Link>
                 <Link href='/#contact'>
                   <li
-                    className={`font-bold text-[#ffb766] hover:text-[#A7B3A5] ease-in duration-200   cursor-pointer ml-10 text-md uppercase `}
+                    className={`nav-link nav-link-ltr font-bold text-[#ffb766]  ease-in duration-200   cursor-pointer ml-10 text-md uppercase `}
                   >
                     Contact
                   </li>

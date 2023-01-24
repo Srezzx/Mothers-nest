@@ -60,4 +60,105 @@
     transform: scale(1.1);
     animation-duration: 3s;
   }
+
+  .custom-btn1 {
+    /* width: 130px; */
+    /* height: 40px; */
+    color: #fff;
+    border-radius: 2px;
+    padding: 7px 25px;
+    background: transparent;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    display: inline-block;
+    outline: none;
+  }
+
+  .btn-1 {
+    background: rgba(255, 183, 102, 0.2);
+    border: 1px solid rgba(255, 183, 102, 1);
+    z-index: 1;
+  }
+
+  .btn-1:after {
+    position: absolute;
+    content: "";
+    width: 0;
+    height: 100%;
+    top: 0;
+    right: 0;
+    z-index: -1;
+    background: rgba(255, 183, 102, 1);
+    border-radius: 2px;
+
+    transition: all 0.3s ease;
+  }
+  .btn-1:hover {
+    color: #fff;
+  }
+  .btn-1:hover:after {
+    left: 0;
+    width: 100%;
+  }
+  .btn-1:active {
+    top: 2px;
+  }
+
+  /* btn-2 */
+  .btn-2 {
+    background: rgba(255, 183, 102, 1);
+    border: 1px solid rgba(255, 183, 102, 1);
+    z-index: 1;
+  }
+
+  .btn-2:after {
+    position: absolute;
+    content: "";
+    width: 0;
+    height: 100%;
+    top: 0;
+    right: 0;
+    z-index: -1;
+    background-color: #fca747;
+    border-radius: 2px;
+
+    transition: all 0.3s ease;
+  }
+  .btn-2:hover {
+    color: #fff;
+  }
+  .btn-2:hover:after {
+    left: 0;
+    width: 100%;
+  }
+  .btn-2:active {
+    top: 2px;
+  }
+
+  .nav-link {
+    text-decoration: none;
+    color: #031d44;
+    padding: 15px 0px;
+    margin: 0px 20px;
+    display: inline-block;
+    position: relative;
+  }
+
+  .nav-link::before {
+    transition: 300ms;
+    height: 2px;
+    content: "";
+    position: absolute;
+    background-color: #ffb766;
+  }
+
+  .nav-link-ltr::before {
+    width: 0%;
+    bottom: 10px;
+  }
+
+  .nav-link-ltr:hover::before {
+    width: 100%;
+  }
 }

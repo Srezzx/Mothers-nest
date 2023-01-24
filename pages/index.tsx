@@ -27,10 +27,21 @@ export default function Home() {
           <Aim />
           <Section5 />
         </section>
-        <section className='block relative z-1 bg-blueGray-600'>
+        {/* <section className='block relative z-1 bg-blueGray-600'>
           <Section6 />
-        </section>
-        <section className='py-20 bg-blueGray-600 overflow-hidden'></section>
+        </section> */}
+        {/* <section className='py-20 bg-blueGray-600 overflow-hidden'></section> */}
+        <div
+          style={{
+            display: "flex",
+            justifyContent: "center",
+            paddingBottom: "1rem",
+          }}
+        >
+          <p style={{color: "black"}}>
+            Copyrights belong to mothersnest @2023{" "}
+          </p>
+        </div>
       </>
     </div>
   );
